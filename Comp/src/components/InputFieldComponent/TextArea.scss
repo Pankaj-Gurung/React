@@ -1,0 +1,68 @@
+.text-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  position: relative;
+
+  label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+
+  .text-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 20rem;
+    transition: 0.3s ease;
+    position: relative;
+
+    &:focus-within {
+      border-color: #007bff;
+    }
+
+    &.error {
+      border-color: red;
+    }
+
+    .left-adorn,
+    .right-adorn {
+      display: flex;
+      align-items: center;
+      padding: 1.4rem;
+      color: #555;
+      background: #f9f9f9;
+    }
+
+    .left-adorn {
+      border-right: 1px solid #ccc;
+      cursor: pointer;
+    }
+
+    .right-adorn {
+      border-left: 1px solid #ccc;
+      cursor: pointer;
+    }
+
+    .text-field {
+      flex: 1;
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      outline: none;
+      width: 100%;
+      padding: 1.3rem;
+    }
+
+    .char-count {
+      position: absolute;
+      bottom: -7px;
+      font-size: 12px;
+      color: gray;
+      background: white;
+      padding: 0 5px;
+    }
+  }
+}

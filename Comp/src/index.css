@@ -1,0 +1,102 @@
+body {
+  background-color: rgb(219, 186, 186);
+  font-family: "Poppins";
+  margin: 0; /* No margin */
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.Button-Component {
+  border-color: cadetblue;
+  border-radius: 40px;
+  background-color: rgba(250, 235, 215, 0.637);
+  width: 40rem;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  transition: transform 0.7s;
+  margin-top: 7rem;
+}
+
+.Button-Component:hover {
+  background-color: antiquewhite;
+  transform: scale(1.1);
+}
+
+.appbuttoncontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.appbuttonloadercontainer {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.loaderButtonComponent {
+  border-color: cadetblue;
+  border-radius: 40px;
+  background-color: rgba(250, 235, 215, 0.637);
+  width: 50rem;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 4rem;
+  transition: transform 0.7s;
+}
+
+.loaderButtonComponent:hover {
+  background-color: antiquewhite;
+  transform: scale(1.1);
+}
+
+.loadercomponent {
+  border-color: cadetblue;
+  border-radius: 40px;
+  background-color: rgba(250, 235, 215, 0.637);
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.7s;
+}
+
+.apploadercomponent {
+  display: flex;
+  justify-content: center;
+}
+
+.loadercomponent:hover {
+  background-color: antiquewhite;
+  transform: scale(1.1);
+}
+
+.inputfieldcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.appinputfieldcontainer {
+  border-color: cadetblue;
+  border-radius: 40px;
+  background-color: rgba(250, 235, 215, 0.637);
+  width: 50rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+}
+
+.appinputfieldcontainer:hover {
+  background-color: antiquewhite;
+  transform: scale(1.1);
+}

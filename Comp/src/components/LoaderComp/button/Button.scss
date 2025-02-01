@@ -1,0 +1,10 @@
+@use "../color/colors" as *;
+
+.buttonloader {
+  border: none;
+  border-radius: 5rem;
+  color: $text;
+  background-color: $primary;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
